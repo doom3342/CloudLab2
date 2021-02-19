@@ -6,17 +6,17 @@ app.set('views', './views');
 const port = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
-    res.render('index', {title: 'Обучение коду JS', message: 'Облачные технологии'});
-    <img src="https://adolforamirez.es/wp-content/uploads/2018/01/facilitadores-inhibidores-800x600.jpg">
+    res.render('index', {title: 'Заголовок', message: 'Облачные технологии'});
+    pc.innerHTML="<img src='https://cf.ppt-online.org/files/slide/r/rXpTua8IhKyfU4vk0QCnmFGExP9BJcqHzZd6NL/slide-6.jpg'>";
+    
+   
 });
 
 app.get('/page2', function (req, res) {
-    res.render('page2', {title: 'Здесь вторая страница', message: 'Вторая страница'});
-    <p>
-  <a href="/"
-     title="Лучшее место для поиска дополнительной информации
+    res.render('page2', {title: 'Страница 2', message: 'Вторая страница'});
 });
 
 app.listen(port, function() {
     console.log('Приложение запущено');
 });
+
